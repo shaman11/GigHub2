@@ -14,7 +14,7 @@ namespace GigHub.Controllers
         {
             _context = new ApplicationDbContext();
         }
-      
+
         [Authorize]
         public ActionResult Create()
         {
@@ -27,6 +27,7 @@ namespace GigHub.Controllers
 
         [Authorize]
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Create(GigFormViewModel viewModel)
         {
             if (!ModelState.IsValid)
