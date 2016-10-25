@@ -224,6 +224,10 @@
     <Compile Include="Migrations\201610191655267_AddForeignKeyProps.Designer.cs">
       <DependentUpon>201610191655267_AddForeignKeyProps.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201610252316594_AddNameToAppUser.cs" />
+    <Compile Include="Migrations\201610252316594_AddNameToAppUser.Designer.cs">
+      <DependentUpon>201610252316594_AddNameToAppUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -329,6 +333,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201610191655267_AddForeignKeyProps.resx">
       <DependentUpon>201610191655267_AddForeignKeyProps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610252316594_AddNameToAppUser.resx">
+      <DependentUpon>201610252316594_AddNameToAppUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
